@@ -943,7 +943,6 @@ end
 
 class Enumerator
   def each_with_index(); end
-
 end
 
 class Enumerator::Generator
@@ -1199,7 +1198,6 @@ class File
   def self.exists?(_); end
 
   def self.mkfifo(*_); end
-
 end
 
 module FileUtils
@@ -1427,7 +1425,6 @@ class IO
   def self.foreach(*_); end
 
   def self.pipe(*_); end
-
 end
 
 class Integer
@@ -1480,7 +1477,6 @@ module Kernel
   def object_id(); end
 
   def respond_to?(*_); end
-
 end
 
 module Kernel
@@ -1505,7 +1501,6 @@ Methods = T::Private::Methods
 
 class Module
   def deprecate_constant(*_); end
-
 end
 
 class Monitor
@@ -1628,7 +1623,6 @@ class Pathname
   def fnmatch?(*_); end
 
   def make_symlink(_); end
-
 end
 
 class Proc
@@ -1639,7 +1633,6 @@ end
 
 module Process::Sys
   def self.getegid(); end
-
 end
 
 class Process::Tms
@@ -1668,7 +1661,6 @@ end
 
 module Process
   def self.setpgrp(); end
-
 end
 
 class Random
@@ -2212,7 +2204,6 @@ class String
   def unicode_normalize!(form=T.unsafe(nil)); end
 
   def unicode_normalized?(form=T.unsafe(nil)); end
-
 end
 
 class String
