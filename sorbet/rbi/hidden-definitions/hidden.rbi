@@ -866,15 +866,15 @@ module FileUtils
 end
 
 module FileUtils::DryRun
-  include ::FileUtils::LowMethods
   include ::FileUtils
   include ::FileUtils::StreamUtils_
+  include ::FileUtils::LowMethods
 end
 
 module FileUtils::NoWrite
-  include ::FileUtils::LowMethods
   include ::FileUtils
   include ::FileUtils::StreamUtils_
+  include ::FileUtils::LowMethods
 end
 
 module FileUtils::Verbose
@@ -1118,7 +1118,6 @@ class NilClass
 end
 
 class NoMethodError
-  include ::DidYouMean::Correctable
   def args(); end
 end
 
