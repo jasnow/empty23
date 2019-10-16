@@ -1124,46 +1124,6 @@ class Etc::Passwd
   def self.members(); end
 end
 
-module Etc
-  def self.confstr(_); end
-
-  def self.endgrent(); end
-
-  def self.endpwent(); end
-
-  def self.getgrent(); end
-
-  def self.getgrgid(*_); end
-
-  def self.getgrnam(_); end
-
-  def self.getlogin(); end
-
-  def self.getpwent(); end
-
-  def self.getpwnam(_); end
-
-  def self.getpwuid(*_); end
-
-  def self.group(); end
-
-  def self.nprocessors(); end
-
-  def self.passwd(); end
-
-  def self.setgrent(); end
-
-  def self.setpwent(); end
-
-  def self.sysconf(_); end
-
-  def self.sysconfdir(); end
-
-  def self.systmpdir(); end
-
-  def self.uname(); end
-end
-
 class Exception
   def self.exception(*_); end
 end
@@ -2180,13 +2140,7 @@ end
 
 class String
   include ::JSON::Ext::Generator::GeneratorMethods::String
-  def +@(); end
-
-  def -@(); end
-
   def []=(*_); end
-
-  def encode(*_); end
 
   def encode!(*_); end
 
