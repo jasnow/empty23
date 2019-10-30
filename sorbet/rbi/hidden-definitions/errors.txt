@@ -690,7 +690,6 @@
 # wrong constant name wait_writable
 # wrong constant name write_nonblock
 # wrong constant name foreach
-# wrong constant name pipe
 # wrong constant name to_bn
 # wrong constant name to_json
 # wrong constant name <static-init>
